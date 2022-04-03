@@ -49,7 +49,7 @@ app.on('ready', () => {
   updateApp = require('update-electron-app');
 
   updateApp({
-    // repo: 'PhiloNL/electron-hello-world', // defaults to package.json
+    repo: 'shreyaskinage/react-electron-test', // defaults to package.json
     updateInterval: '1 hour',
     notifyUser: true
   });
